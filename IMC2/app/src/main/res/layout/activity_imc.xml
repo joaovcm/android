@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_imc_activity_bg"
+    tools:context=".IMCActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/LabelIMCype"
+        android:textSize="28sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/activity_imc_title_screen"/>
+
+    <TextView
+        style="@style/LabelIMCype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="@string/activity_imc_describe"/>
+
+    <LinearLayout
+
+        android:id="@+id/buttons_container"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/LabelIMCype"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/activity_imc_weight_field" />
+
+            <EditText
+                style="@style/EditTextIMCField"
+                android:hint="@string/activity_imc_hint_weight"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    style="@style/LabelIMCype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/activity_imc_height_field" />
+
+                <EditText
+                    style="@style/EditTextIMCField"
+                    android:hint="@string/activity_imc_hint_height"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_imc_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/results_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/activity_imc_describe_text_result"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/tv_imc_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            tools:text="24: Peso ideal"/>
+
+        <ImageView
+            android:id="@+id/img_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            tools:src="@drawable/ic_launcher_background"/>
+
+    </LinearLayout>
+
+</LinearLayout>

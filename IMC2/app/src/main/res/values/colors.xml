@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#277e84</color>
+    <color name="colorPrimaryDark">#1b484b</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_imc_activity_bg">#277e84</color>
+</resources>

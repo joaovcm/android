@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">IMC</string>
+
+    <string name="activity_imc_title_screen">Cálculo do IMC</string>
+    <string name="activity_imc_describe">Descubra seu índice de Massa Corporal</string>
+    <string name="activity_imc_weight_field">Peso (Kg)</string>
+    <string name="activity_imc_height_field">Altura (m)</string>
+    <string name="activity_imc_button">Calcular</string>
+
+    <string name="activity_imc_describe_text_result">Seu índice de massa corporal é</string>
+
+    <string name="activity_imc_hint_weight">Ex: 75</string>
+    <string name="activity_imc_hint_height">Ex: 1,75</string>
+</resources>
