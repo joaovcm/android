@@ -27,7 +27,6 @@
         android:text="@string/activity_imc_describe"/>
 
     <LinearLayout
-
         android:id="@+id/buttons_container"
         android:layout_marginTop="16dp"
         android:layout_width="wrap_content"
@@ -51,6 +50,7 @@
                 android:text="@string/activity_imc_weight_field" />
 
             <EditText
+                android:id="@+id/edt_weight"
                 style="@style/EditTextIMCField"
                 android:hint="@string/activity_imc_hint_weight"/>
         </LinearLayout>
@@ -68,6 +68,7 @@
                     android:text="@string/activity_imc_height_field" />
 
                 <EditText
+                    android:id="@+id/edt_height"
                     style="@style/EditTextIMCField"
                     android:hint="@string/activity_imc_hint_height"/>
             </LinearLayout>
@@ -75,6 +76,7 @@
         </LinearLayout>
 
         <Button
+            android:id="@+id/btn_calc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/activity_imc_button"/>
@@ -86,7 +88,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@android:color/white"
-        android:orientation="vertical">
+        android:visibility="gone"
+        android:orientation="vertical"
+        tools:visibility="visible">
 
 
 

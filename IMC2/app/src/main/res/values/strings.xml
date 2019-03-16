@@ -11,4 +11,9 @@
 
     <string name="activity_imc_hint_weight">Ex: 75</string>
     <string name="activity_imc_hint_height">Ex: 1,75</string>
+
+    <string name="activity_imc_result_low_weight">Abaixo do peso</string>
+    <string name="activity_imc_result_normal_weight">Peso normal</string>
+    <string name="activity_imc_result_more_fast">Gordinho</string>
+    <string name="activity_imc_result_supreme_fast">Obeso</string>
 </resources>
